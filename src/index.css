@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'WildBreath';
+  src: local('WildBreath'), url(./Fonts/TheWildBreathOfZelda-15Lv.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Basalt';
+  src: local('Basalt'), url(./Fonts/BasaltRegular-Jx3o.ttf) format('truetype');
+}
