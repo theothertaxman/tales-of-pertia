@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import './Fonts/TheWildBreathOfZelda-15Lv.ttf';
 import './Fonts/BasaltRegular-Jx3o.ttf';
-import { LandingPageRoute, LogInPageRoute, RegisterPageRoute, UserHomePageRoute } from './Routes';
+import { CharacterPageRoute, LandingPageRoute, LogInPageRoute, RegisterPageRoute, UserHomePageRoute } from './Routes';
 import { Router } from '@reach/router';
 
 ReactDOM.render(
@@ -13,6 +13,7 @@ ReactDOM.render(
         <LogInPageRoute path="login" />
         <UserHomePageRoute path="home" />
         <RegisterPageRoute path="register" />
+        <CharacterPageRoute path="character" />
     </Router>,
     document.getElementById('root'),
 );

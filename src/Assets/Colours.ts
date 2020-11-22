@@ -6,5 +6,12 @@ const Colours = {
     LIGHT_WOOD: '#caa472',
     DARK_WOOD: '#553C2A',
 };
+export const Palette2 = {
+    BLUE: '#5161F5',
+    YELLOW: '#F5DF51',
+    DARK_BROWN: '#A8822F',
+    LIGHT_BROWN: '#F2CE80',
+    CREAM_BROWN: '#ABA478',
+};
 
 export default Colours;
