@@ -4,7 +4,7 @@ import BaseLayout from '../Components/Templates/BaseLayout';
 export default function CharacterPage(): JSX.Element {
     return (
         <BaseLayout>
-            <div>Hi</div>
+            <div>Automated :D</div>
         </BaseLayout>
     );
 }
