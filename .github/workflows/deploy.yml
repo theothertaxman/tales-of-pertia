@@ -13,8 +13,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12'
-      - run: CI=false npm run build
-      - run: npm ci
+      - run: CI=false 
       - run: npm run build
       - name: GitHub Action for Firebase
         uses: w9jds/firebase-action@v1.5.0
